@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WhiteLabelTutorial">
         <activity
-            android:name=".ui.MainActivity"
-            android:exported="true">
+            android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
