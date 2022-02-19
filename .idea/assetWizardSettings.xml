@@ -13,7 +13,7 @@
                       <PersistentState>
                         <option name="values">
                           <map>
-                            <entry key="resourceDirectory" value="carAdmin" />
+                            <entry key="resourceDirectory" value="bikeAdmin" />
                           </map>
                         </option>
                       </PersistentState>
@@ -78,7 +78,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="$PROJECT_DIR$/../Resources/Icons/Bike Client/Launcher/Launcher Icon - Bike Background.svg" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/../Resources/Icons/Bike Admin/Launcher/Launcher Icon - Bike Admin Background.svg" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -101,7 +101,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$PROJECT_DIR$/../Resources/Icons/Car Admin/Launcher/Launcher Icon - Car Admin Foreground.svg" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/../Resources/Icons/Bike Admin/Launcher/Launcher Icon - Bike Admin Foreground.svg" />
                                                 <entry key="scalingPercent" value="51" />
                                               </map>
                                             </option>

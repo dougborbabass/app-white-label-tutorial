@@ -42,21 +42,37 @@ android {
         bike {
             dimension 'product'
             applicationIdSuffix '.bike'
-            manifestPlaceholders.appName = "Bike"
+            manifestPlaceholders = [
+                    appName: "Bike",
+                    appIcon: "@mipmap/ic_launcher",
+                    appIconRound: "@mipmap/ic_launcher_round"
+            ]
         }
         car {
             dimension 'product'
             applicationIdSuffix '.car'
-            manifestPlaceholders.appName = "Car"
+            manifestPlaceholders = [
+                    appName: "Car",
+                    appIcon: "@mipmap/ic_launcher",
+                    appIconRound: "@mipmap/ic_launcher_round"
+            ]
         }
         client {
             dimension 'side'
-            manifestPlaceholders.appNameSuffix = ""
+            manifestPlaceholders = [
+                    appNameSuffix: "",
+                    appIcon: "@mipmap/ic_launcher",
+                    appIconRound: "@mipmap/ic_launcher_round"
+            ]
         }
         admin {
             dimension 'side'
             applicationIdSuffix '.admin'
-            manifestPlaceholders.appNameSuffix = ".Admin"
+            manifestPlaceholders = [
+                    appNameSuffix: ".admin",
+                    appIcon: "@mipmap/ic_launcher",
+                    appIconRound: "@mipmap/ic_launcher_round"
+            ]
         }
     }
 }
