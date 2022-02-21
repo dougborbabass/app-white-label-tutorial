@@ -48,6 +48,7 @@ android {
                     appIcon: "@mipmap/ic_launcher",
                     appIconRound: "@mipmap/ic_launcher_round"
             ]
+            buildConfigField "String", "FIREBASE_FLAVOR_COLLECTION", "\"bike\""
         }
         car {
             dimension 'product'
@@ -57,6 +58,7 @@ android {
                     appIcon: "@mipmap/ic_launcher",
                     appIconRound: "@mipmap/ic_launcher_round"
             ]
+            buildConfigField "String", "FIREBASE_FLAVOR_COLLECTION", "\"car\""
         }
         client {
             dimension 'side'
