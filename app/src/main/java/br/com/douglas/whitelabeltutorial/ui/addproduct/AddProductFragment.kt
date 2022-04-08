@@ -65,7 +65,7 @@ class AddProductFragment : BottomSheetDialogFragment() {
             chooseImage()
         }
 
-        binding.buttoAddProduct.setOnClickListener {
+        binding.buttonAddProduct.setOnClickListener {
             val description = binding.inputDescription.text.toString()
             val price = binding.inputPrice.text.toString()
 

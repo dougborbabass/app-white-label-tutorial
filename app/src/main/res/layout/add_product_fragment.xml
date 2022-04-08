@@ -7,9 +7,8 @@
     android:padding="@dimen/screen_padding"
     tools:context=".ui.addproduct.AddProductFragment">
 
-
     <ImageView
-        android:id="@+id/imageProduct"
+        android:id="@+id/image_product"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:background="@drawable/background_product_image"
@@ -26,11 +25,11 @@
         android:id="@+id/input_layout_description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:hint="@string/add_product_field_description_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageProduct">
+        app:layout_constraintTop_toBottomOf="@id/image_product">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/input_description"
@@ -38,7 +37,6 @@
             android:layout_height="wrap_content"
             android:inputType="textCapSentences"
             android:maxLines="1" />
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -57,11 +55,10 @@
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:maxLines="1" />
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/butto_add_product"
+        android:id="@+id/button_add_product"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
