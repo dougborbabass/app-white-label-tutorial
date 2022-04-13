@@ -27,6 +27,7 @@ class AddProductViewModel(
     private val _priceFieldErrorResId = MutableLiveData<Int?>()
     val priceFieldErrorResId: LiveData<Int?> = _priceFieldErrorResId
 
+    //viewModelScope.lauch eh um escopo de coroutines (sem isso nao consegue-se chamar as funcoes suspensas)
     fun createProduct(description: String, price: String, imageUri: Uri?) = viewModelScope.launch {
         isFormValid = true
 

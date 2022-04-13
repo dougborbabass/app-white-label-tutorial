@@ -8,6 +8,7 @@
         android:label="${appName}${appNameSuffix}"
         android:roundIcon="${appIconRound}"
         android:supportsRtl="true"
+        android:name=".MyApplication"
         android:theme="@style/Theme.WhiteLabelTutorial">
         <activity
             android:name=".ui.MainActivity">

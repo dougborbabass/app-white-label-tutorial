@@ -3,7 +3,11 @@ package br.com.douglas.whitelabeltutorial.data
 import android.net.Uri
 import br.com.douglas.whitelabeltutorial.domain.model.Product
 
+//O Repositorio depende de uma abstracao e nao de uma implementacao concreta
 class ProductRepository(private val dataSource: ProductDataSource) {
+
+    //Para cada um dos casos de uso, devemos ter uma funcao no repositorio
+    //O repositorio existe por conta dos casos de uso
 
     suspend fun getProducts(): List<Product> = dataSource.getProducts()
 
