@@ -7,6 +7,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import br.com.douglas.whitelabeltutorial.R
+import br.com.douglas.whitelabeltutorial.domain.model.Product
 import br.com.douglas.whitelabeltutorial.domain.usecase.CreateProductUseCase
 import br.com.douglas.whitelabeltutorial.util.fromCurrency
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -30,6 +31,9 @@ class AddProductViewModel @Inject constructor(
     private val _priceFieldErrorResId = MutableLiveData<Int?>()
     val priceFieldErrorResId: LiveData<Int?> = _priceFieldErrorResId
 
+    private val _productCreated = MutableLiveData<Product>()
+    val productCreated : LiveData<Product> = _productCreated
+
     //viewModelScope.lauch eh um escopo de coroutines (sem isso nao consegue-se chamar as funcoes suspensas)
     fun createProduct(description: String, price: String, imageUri: Uri?) = viewModelScope.launch {
         isFormValid = true
@@ -42,6 +46,8 @@ class AddProductViewModel @Inject constructor(
             try {
                 val product =
                     createProductUseCase.invoke(description, price.fromCurrency(), imageUri!!)
+
+                _productCreated.value = product
 
             } catch (e: Exception) {
                 Log.d("CreateProduct", e.toString())
