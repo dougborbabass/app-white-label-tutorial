@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "345116853005",
+    "project_id": "white-label-clean-architecture",
+    "storage_bucket": "white-label-clean-architecture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345116853005:android:1b0b86432a3bfe64dee644",
+        "android_client_info": {
+          "package_name": "br.com.douglas.whitelabeltutorial.bike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345116853005-3apk2kfl7im15g94bsldt3cfsp8d0c5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoWQg8IZP6YCjq3XyIk86a7sDq7IRNdYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345116853005-3apk2kfl7im15g94bsldt3cfsp8d0c5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345116853005:android:bbb04793ad425b98dee644",
+        "android_client_info": {
+          "package_name": "br.com.douglas.whitelabeltutorial.bike.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345116853005-3apk2kfl7im15g94bsldt3cfsp8d0c5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoWQg8IZP6YCjq3XyIk86a7sDq7IRNdYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345116853005-3apk2kfl7im15g94bsldt3cfsp8d0c5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345116853005:android:53379b31fddfcf51dee644",
+        "android_client_info": {
+          "package_name": "br.com.douglas.whitelabeltutorial.car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345116853005-3apk2kfl7im15g94bsldt3cfsp8d0c5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoWQg8IZP6YCjq3XyIk86a7sDq7IRNdYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345116853005-3apk2kfl7im15g94bsldt3cfsp8d0c5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345116853005:android:da6300fbd6aee308dee644",
+        "android_client_info": {
+          "package_name": "br.com.douglas.whitelabeltutorial.car.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345116853005-3apk2kfl7im15g94bsldt3cfsp8d0c5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoWQg8IZP6YCjq3XyIk86a7sDq7IRNdYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345116853005-3apk2kfl7im15g94bsldt3cfsp8d0c5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
